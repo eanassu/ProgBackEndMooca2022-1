@@ -32,7 +32,7 @@ public class ServletControle extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String op = request.getParameter("op");
-		Class classe;
+		Class<?> classe;
 		try {
 			classe = Class.forName("br.com.vemprafam.logica.Logica"+op);
 			Logica logica = (Logica) classe.getDeclaredConstructors()[0].newInstance();
