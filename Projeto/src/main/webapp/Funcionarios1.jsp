@@ -26,7 +26,8 @@
   e-mail não informado
 </c:if>
 </td>
-<td><a href="excluir?re=${funcionario.re}">apagar</a></td>
+<td><a href="controle?re=${funcionario.re}&op=Exclusao">apagar</a></td>
+<td><a href="controle?re=${funcionario.re}&op=Alteracao">alterar</a></td>
 </tr>
 </c:forEach>
 </table>
