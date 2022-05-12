@@ -15,7 +15,8 @@
   </script>
 </head>
 <body>
-<form action="alterarFuncionario">
+<form action="controle">
+<input type="hidden" name="op" value="Gravacao">
 RE:<input type="text" name="re" value="${funcionario.re}" readonly/><br/>
 nome:<input type="text" name="nome" value="${funcionario.nome}"/><br/>
 salário:<input type="text" name="salario" value="${funcionario.salario}"/><br/>

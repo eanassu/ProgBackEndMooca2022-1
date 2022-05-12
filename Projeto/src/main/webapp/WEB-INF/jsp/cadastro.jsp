@@ -13,7 +13,8 @@
   </script>
 </head>
 <body>
-<form action="cadastrarFuncionario">
+<form action="controle">
+<input type="hidden" name="op" value="Cadastro"/>
 RE:<input type="text" name="re"/><br/>
 nome:<input type="text" name="nome"/><br/>
 salário:<input type="text" name="salario"/><br/>
